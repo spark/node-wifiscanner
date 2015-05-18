@@ -1,8 +1,10 @@
-# node WiFiScanner
+# node-wifiscanner2
+
+This is a fork of [node-wifiscanner](https://github.com/mauricesvay/node-wifiscanner).
 
 ## Installing
 
-    npm install node-wifiscanner
+    npm install node-wifiscanner2
 
 ## About
 
@@ -33,6 +35,10 @@ Similar project : [node_wifi_location](https://github.com/swdyh/node_wifi_locati
 
 ## Author
 
+Fork Author
+* Bryce Kahle <bryce@particle.io>
+
+Original Author
 * Maurice Svay <maurice@svay.com>, [http://svay.com](http://svay.com)
 
 ## Simplified BSD License
