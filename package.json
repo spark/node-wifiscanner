@@ -1,6 +1,6 @@
 {
   "name": "node-wifiscanner2",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Scan surrounding WiFi access points",
   "author": "Bryce Kahle <bryce@particle.io>",
   "main": "./lib/wifiscanner",
