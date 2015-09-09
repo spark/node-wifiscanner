@@ -19,5 +19,8 @@
       "name": "Maurice Svay",
       "email": "maurice@svay.com"
     }
-  ]
+  ],
+  "dependencies": {
+    "os-locale": "^1.4.0"
+  }
 }
