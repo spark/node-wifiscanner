@@ -21,5 +21,10 @@
 		"Signal level": "Signal level",
 		"Scan completed :": "Scan completed :",
 		"Interface doesn't support scanning.": "Interface doesn't support scanning."
+	},
+	"nmcli": {
+		"SSID": "SSID",
+		"BSSID": "BSSID",
+		"CHAN": "CHAN"
 	}
 }
