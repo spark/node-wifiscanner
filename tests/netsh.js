@@ -29,7 +29,7 @@ describe('Netsh complex test', function() {
 			var terms = require('../locales/' + locale + '.json').netsh;
 			var aps = netsh.parse(terms, fs.readFileSync('./tests/fixtures/netsh/' + locale + '_complex.txt', { encoding: 'utf8' }));
 			assert.ok(aps);
-      assert.equal(aps.length, 86);
+			assert.equal(aps.length, 86);
 
 			var ap = aps[0];
 			assert.equal(ap.mac, '00:f2:8b:8c:a6:88');
