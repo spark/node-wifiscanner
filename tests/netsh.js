@@ -9,8 +9,7 @@ describe('Netsh', function() {
 	var locales = ['en', 'de'];
 	locales.forEach(function (locale) {
 		it('parses ' + locale + ' locale output', function() {
-			var terms = require('../locales/' + locale + '.json').netsh;
-			var aps = netsh.parse(terms, fs.readFileSync('./tests/fixtures/netsh/' + locale + '.txt', { encoding: 'utf8' }));
+			var aps = netsh.parse(fs.readFileSync('./tests/fixtures/netsh/' + locale + '.txt', { encoding: 'utf8' }));
 			assert.ok(aps);
 			assert.equal(aps.length, 5);
 			var ap = aps[0];
@@ -26,8 +25,7 @@ describe('Netsh complex test', function() {
 	var locales = ['de', 'en'];
 	locales.forEach(function (locale) {
 		it('parses ' + locale + ' locale output', function() {
-			var terms = require('../locales/' + locale + '.json').netsh;
-			var aps = netsh.parse(terms, fs.readFileSync('./tests/fixtures/netsh/' + locale + '_complex.txt', { encoding: 'utf8' }));
+			var aps = netsh.parse(fs.readFileSync('./tests/fixtures/netsh/' + locale + '_complex.txt', { encoding: 'utf8' }));
 			assert.ok(aps);
 			assert.equal(aps.length, 86);
 
