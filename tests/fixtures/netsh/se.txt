@@ -1,0 +1,58 @@
+
+Gränssnittsnamn : WiFi
+För närvarande är 5 nätverk synliga.
+
+SSID 1 : AP-Test1
+    Nätverkstyp             : Infrastruktur
+    Autentisering           : WPA2-Personal
+    Kryptering              : CCMP
+    BSSID 1                  : 00:aa:f2:77:a5:53
+         Signal              : 46%
+         Radiotyp            : 802.11n
+         Kanal               : 6
+         Standardhastigheter (MBit/s) : 1 2 5.5 11
+         Andra hastigheter (MBit/s) : 6 9 12 18 24 36 48 54
+
+SSID 2 : AP-Test2
+    Nätverkstyp             : Infrastruktur
+    Autentisering           : WPA2-Personal
+    Kryptering              : CCMP
+    BSSID 1                 : ac:aa:7a:4c:b4:c1
+         Signal             : 48%
+         Radiotyp           : 802.11n
+         Kanal              : 6
+         Standardhastigheter (MBit/s) : 6 12 24
+         Andra hastigheter (MBit/s) : 9 18 36 48 54
+
+SSID 3 : AP-Test3
+    Nätverkstyp             : Infrastruktur
+    Autentisering           : WPA2-Personal
+    Kryptering              : CCMP
+    BSSID 1                 : 2e:aa:8e:15:a5:d6
+         Signal             : 35%
+         Radiotyp           : 802.11n
+         Kanal              : 6
+         Standardhastigheter (MBit/s) : 1 2 5.5 11
+         Andra hastigheter (MBit/s) : 6 9 12 18 24 36 48 54
+
+SSID 4 : AP-Test4
+    Nätverkstyp             : Infrastruktur
+    Autentisering           : WPA2-Personal
+    Kryptering              : CCMP
+    BSSID 1                 : 00:aa:be:30:49:0e
+         Signal             : 90%
+         Radiotyp           : 802.11g
+         Kanal              : 11
+         Standardhastigheter (MBit/s) : 1 2 5.5 11
+         Andra hastigheter (MBit/s) : 6 9 12 18 24 36 48 54
+
+SSID 5 : AP-Test5
+    Nätverkstyp             : Infrastruktur
+    Autentisering           : Öppen
+    Kryptering              : Ingen
+    BSSID 1                 : 6c:aa:84:59:0c:39
+         Signal             : 61%
+         Radiotyp           : 802.11n
+         Kanal              : 11
+         Standardhastigheter (MBit/s) : 1 2 5.5 11
+         Andra hastigheter (MBit/s) : 6 9 12 18 24 36 48 54

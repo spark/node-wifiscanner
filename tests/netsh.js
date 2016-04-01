@@ -6,7 +6,7 @@ var assert = require('assert');
 var netsh = require('../lib/netsh');
 
 describe('Netsh', function() {
-	var locales = ['en', 'de'];
+	var locales = ['en', 'de', 'se'];
 	locales.forEach(function (locale) {
 		it('parses ' + locale + ' locale output', function() {
 			var aps = netsh.parse(fs.readFileSync('./tests/fixtures/netsh/' + locale + '.txt', { encoding: 'utf8' }));
