@@ -1,10 +1,4 @@
 {
-	"netsh": {
-		"SSID": "SSID",
-		"BSSID": "BSSID",
-		"Signal": "Signal",
-		"Channel": "Channel"
-	},
 	"airport": {
 		"BSSID": "BSSID",
 		"RSSI": "RSSI",
