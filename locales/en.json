@@ -4,7 +4,7 @@
 		"BSSID": "BSSID",
 		"Signal": "Signal",
 		"Channel": "Channel",
-		"Authentication": "Authentication", 
+		"Authentication": "Authentication"
 	},
 	"airport": {
 		"BSSID": "BSSID",
